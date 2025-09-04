@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+venv/
+__pycache__/
+
+# local secrets / wrds
+.pgpass
+.env
+*.pgpass
+
+# outputs (optional: commenta se vuoi caricare gli output)
+# outputs/
