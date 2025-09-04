@@ -1,0 +1,13 @@
+# PEAD Mini Backtester
+
+A minimal Python backtester for **Post-Earnings Announcement Drift (PEAD)**.  
+It sorts stocks into deciles by **Standardized Unexpected Earnings (SUE)** and builds a **long–short strategy** (long top decile, short bottom decile) around earnings announcements.
+
+---
+
+## 🚀 Features
+- **Decile Sorting:** Splits stocks into deciles by earnings surprise (SUE).
+- **Portfolio Simulation:** Long top decile (D10), short bottom decile (D1).
+- **Holding Periods:** Flexible (e.g., 5, 10, 20 days).
+- **Sector Neutral Option:** Equal-weight by sector, or plain equal-weight.
+- **Performance Metrics:** Information Coefficient (IC), Alpha,
